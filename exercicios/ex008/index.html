@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formatação de Texto</title>
+    <style>
+        mark {
+            background-color: hotpink;
+        }
+    </style>
+</head>
+<body>
+    <h1>Principais Formatações</h1>
+        <h2>Negrito / Destaque</h2>
+            <p>Nesta frase temos um <b>Termo em Negrito</b> usando a tag &lt;b&gt; (não semântica)</p>
+            <p>Nesta frase temos um <strong>Termo em Destaque</strong> usando a tag &lt;strong&gt; (semântica)</p>
+        <h2>Itálico / Ênfase</h2>
+            <p>Nesta frase temos um <i>Termo em Itálico</i> usando a tag &lt;i&gt; (não semântica) </p>
+            <p>Nesta frase temos um <em>Termo em ênfase</em> usando a tag &lt;em&gt; (semântica)</p>
+        <h2>Outros comandos</h2>
+            <p>Exemplo de <small>letra pequena</small> &lt;small&gt;</p>
+            <p>Exemplo de texto <del>visivel mas desconsiderado</del> &lt;del&gt; </p>
+            <p>Exemplo de texto <ins>inserido e importante</ins> &lt;ins&gt;</p>
+            <p>Exemplo de texto sub escrito H<sub>2</sub>O &lt;sub&gt;</p>
+            <p>Exemplo de texto sobre escrito X<sup>2</sup>-4ac &lt;sup&gt;</p>
+            <p>Exemplo de delimitação do código no site <code> function soma() {
+                //alert("1");
+                var f=document.getElementById("frm");
+                var n1=document.getElementById("n1").value;
+                var n2=document.getElementById("n2").value;
+                var soma = n1 + n2 ;
+                alert(soma);</code> &lt;code&gt;</p>
+            <p>Exemplo de <mark>marcar um texto importante</mark> &lt;mark&gt;</p>
+            <p>Exemplo de colocar uma <q>citação</q> no meio de um parágrafo &lt;q&gt;</p>
+            <p>Exemplo de colocar uma citação mais longa: <blockquote>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatibus iusto libero nam at sequi veritatis dolor eos praesentium vitae pariatur ut facere ad excepturi explicabo eius, quia aliquid hic soluta!</blockquote> &lt;blockquote&gt;</p>
+            <p>Também podemos colocar o parametro <strong>cite</strong> dentro do blockquote para colocar a fonte do texto original no código &lt;blockquote cite="https://pt.wikipedia.org/wiki/Lorem_ipsum"</p><\blockquote></p>
+            <p>Exemplo de colocar Abreviaçoes &lt;abbr&gt;: <br> Estou estudando <abbr title="Hyper Text Markup Language">HTML</abbr>para criar sites </p>
+            <p>O comando &lt;bdo&gt; tem dois parâmetros, sendo eles o <strong>rtl</strong> (direita para a esquerda) e o <strong>ltr</strong> (da esquerda para a direita)</p>
+            <p>Exemplo de &lt;bdo&gt; usando <strong>rtl</strong>: <bdo dir="rtl">Exemplo</bdo></p>
+            <p>Exemplo de &lt;bdo&gt; usando <strong>ltr</strong>: <bdo dir="ltr"></bdo>Exemplo</p>
+</body>
+</html>

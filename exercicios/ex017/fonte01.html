@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Testando fontes</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+        /*
+        Para usar diferentes fontes, usamos o fonts.google.com, onde podemos selecionar a fonte desejada e importar ela para o Style, lembrando que os @imports devem sempre ser os primeiros códigos do Style.
+        */ 
+        body{
+            font-family: Arial, Helvetica, sans-serif; /* Arial é a fonte mais recomendada para sites, Helvetica é uma semelhante no caso da ausencia da Arial, e a sans-serif é uma generalizada para caso não houver as duas */
+
+            /* 
+            Medidas Absolutas
+            cm, mm, in(polegada), px (pixels, recomendado), pt, pc
+            
+            Medidas Relativas
+            em (medida relativa ao tamanho atual da fonte, recomendado), ex, rem, vw, vh, %
+            
+            16px geralmente = 1em
+            16px normalmente é o utilizado, mas vamos usar o em
+            */
+
+            font-size: 1em ;
+
+            /* weight: lighter normal bold bolder*/
+        }
+
+        h1 {
+            font-family: 'Work Sans' , sans-serif; /* Algumas fontes não suportam todas essas alterações, por isso é usada uma fonte específica chamada 'Work Sans', que usa-se aspas por ser duas palavras*/
+            font-weight: bolder;
+            font-size: 3em;
+            font-style: italic;
+           
+        }
+
+        h2{
+              /* shorthand font
+            - font-style -> font-weight -> font-size -> font-family */
+
+            font: italic bolder 2em 'Work Sans' , sans-serif;
+        }
+    </style>
+</head>
+<body>
+   <h1>Trabalhando com fontes</h1> 
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero error repellat quisquam iure voluptatem possimus, nulla officia eligendi et iste minima reiciendis ea praesentium ratione magni, obcaecati ab in nemo!</p>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Adipisci magnam minima illum ipsam exercitationem itaque officiis molestiae, praesentium enim perferendis nobis numquam reiciendis. Quibusdam voluptatibus adipisci nisi culpa? Similique, dignissimos!</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint, totam temporibus nobis inventore explicabo esse veniam debitis tempore laboriosam eligendi aut fuga aliquam! Nisi architecto dolorum consequatur dignissimos, ipsam rerum!</p>
+   <h2>Subtítulo</h2>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Animi quod aspernatur ut adipisci quidem aperiam laudantium vero facere reprehenderit. Doloribus nostrum rem error illum reiciendis officiis perspiciatis obcaecati quod hic?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque laborum sint, molestias tempore quae ex delectus perferendis blanditiis atque sunt laudantium suscipit! Aspernatur distinctio consequatur mollitia aperiam, laudantium quae. Debitis.</p>
+</body>
+</html>
