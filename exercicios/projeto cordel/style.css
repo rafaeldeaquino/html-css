@@ -1,0 +1,30 @@
+body{
+    margin: 0%;
+}
+
+header{
+    background-color: black;
+}
+
+header h1{
+    color: white
+}
+
+footer p{
+    color: rgb(180, 180, 180);
+}
+a{
+    text-decoration: none;
+    color:white;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    margin: 0 0 0 0;
+    text-align: center;
+}
